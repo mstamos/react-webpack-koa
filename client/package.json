@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "enzyme": "^3.8.0",
+    "jest": "^24.1.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "webpack": "^4.29.4"
+  }
+}
