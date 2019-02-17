@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "dotenv": "^6.2.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "nodemon": "1.18.3"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node index.js",
+    "debug": "nodemon --legacy-watch --watch ./ --inspect=0.0.0.0:9229 --nolazy ./index.js"
+  }
+}
